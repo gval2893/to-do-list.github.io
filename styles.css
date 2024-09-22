@@ -1,0 +1,102 @@
+body { 
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  #todo-container {
+    background: #e7d2f9;
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid #000000;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+  }
+
+  #header {
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px; 
+  }
+  
+  #input-box {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+  }
+  
+  #input-button {
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2e60ea;
+  }
+  
+  #input-button:hover {
+    background-color: #9eb7fd; 
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align:left;
+  
+  }
+  
+  li {
+  border: 1px solid rgb(194, 194, 194);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  }
+  
+  .edit-btn, .delete-btn {
+    float: right;
+    color:crimson;
+    cursor: pointer;
+    margin: 3px 5px;
+    border: none;
+    padding: 3px 5px;
+    background: none;
+  } 
+  
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+    border: 1px solid gray;
+  }
+
+
+  #filter-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #filter-input {
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  #filter-input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
